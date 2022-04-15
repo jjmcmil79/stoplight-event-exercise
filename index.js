@@ -16,7 +16,7 @@
   stopBtn.addEventListener('mouseleave', function (){
     console.log('Left ' + stopBtn.textContent +' button')
   })
-  stopBtn.addEventListener('click', stop)
+  stopBtn.addEventListener('click', red)
 
 
 
@@ -39,7 +39,7 @@
   goBtn.addEventListener('click', green)
  
 
-  function stop() {
+  function red() {
     if (isRed) {
       stopLight.style.backgroundColor = 'red'
       console.log('bulb on')
